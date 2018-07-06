@@ -154,7 +154,7 @@ def main(account=None, repo=None, tag=None, artifact=None, latest=False, quiet=F
     :param quiet: If True, print nothing.
     """
     stat = resolve_last_release_tag(account, repo, quiet)
-    download_asset(stat, "servantV3-0.0.1-SNAPSHOT.jar", True)
+    download_asset(stat, "servantV3-0.0.1-SNAPSHOT-fat.jar", True)
 #    print stat
 #    print get_tag_name(stat)
 #    print get_asset_url(stat)
